@@ -28,7 +28,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
-  padding: 1% 11%;
+  padding: 1% 15%;
 }
 
 .container_text {
@@ -49,15 +49,21 @@ textarea {
 
 .logo {
   text-align: center;
-  padding: 0 2%;
   font-size: 1rem;
   color: var(--color-dark-blue-300);
   width: 19%;
 }
 
+h2{
+  font-size: 0.9rem;
+  line-height: 10%;
+  padding-bottom: 2%;
+}
+
 .logo_alura {
   text-align: center;
   font-size: 3rem;
+  line-height: 79%;
 }
 
 textarea::placeholder {
@@ -79,7 +85,7 @@ textarea:focus {
   border-radius: 5px;
   background-color: white;
   width: 40%;
-  min-height: 80vh;
+  min-height: 72vh;
   height: 100%;
   margin: 0 2% 0 1%;
 }
@@ -120,7 +126,7 @@ figure {
 
 button {
   text-align: center;
-  padding: 5% 15%;
+  padding: 2% 10%;
   border-radius: 10px;
   border: 1px solid var(--color-dark-blue-300);
   cursor: pointer;
@@ -139,7 +145,7 @@ button:hover {
   color: var(--color-dark-blue-300);
 }
 
-.conditions{
+.conditions {
   font-size: 0.8rem;
   color: var(--color-gray-400);
   padding: 1% 0;
@@ -155,12 +161,13 @@ footer {
 @media (max-width: 931px) {
   .logo {
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
-    align-items: center;
-    gap: 12px;
+    align-items: end;
+    padding: 0 5%;
   }
 
+ 
   .container_result {
     width: 40%;
     padding-bottom: 3%;
@@ -171,6 +178,7 @@ footer {
   @media (max-width: 768px) {
     .container_app {
       flex-direction: column;
+      padding: 1% 4%;
     }
   }
 
@@ -178,6 +186,7 @@ footer {
     margin: 3% 0;
     width: 100%;
     min-height: 30vh;
+    align-items: center;
   }
 
   .buttons_encryp_decrypt {
@@ -198,8 +207,7 @@ footer {
     min-height: 10vh;
   }
 
-  .text_result_description{
+  .text_result_description {
     text-align: center;
-  
   }
 }
