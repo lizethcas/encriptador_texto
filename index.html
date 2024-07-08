@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptar y Desencriptar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="logo">
+    <h1 class="logo_alura">a</h1>
+    <h2> &lt;/Liz-tech&gt;</h1>
+  </header>
+
+  <main class="container_app">
+    <section class="container_text">
+      <textarea
+        name="textarea"
+        id="decrypt"
+        placeholder="Ingrese el texto aquí"
+      ></textarea>
+      <p class="conditions">Solo letras minusculas y sin asentos</p>
+      <div class="buttons_encryp_decrypt">
+        <button class="encrypt" type="button">Encriptar</button>
+        <button class="decrypt" type="button">Desencriptar</button>
+      </div>
+    </section>
+    <section class="container_result">
+      <figure>
+        <img src="./assets/Muñeco.jpg" alt="buscando" class="img_result">
+      </figure>
+        <div class="container_result_text">
+        <p class="text_result">Ningún mensaje fue encontrado</p>
+        <p class="text_result_description">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+      </div>
+      <button type="button" class="copy_button">Copiar</button>
+    </section>
+    
+  </main>
+  <footer>
+    Hecho por Lizeth Castillo
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
