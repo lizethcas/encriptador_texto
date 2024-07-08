@@ -54,9 +54,8 @@ textarea {
   width: 19%;
 }
 
-h2{
+h2 {
   font-size: 0.9rem;
-  line-height: 10%;
   padding-bottom: 2%;
 }
 
@@ -85,7 +84,7 @@ textarea:focus {
   border-radius: 5px;
   background-color: white;
   width: 40%;
-  min-height: 72vh;
+  min-height: 67vh;
   height: 100%;
   margin: 0 2% 0 1%;
 }
@@ -155,7 +154,7 @@ footer {
   background-color: var(--color-dark-blue-300);
   color: var(--color-light-blue-200);
   text-align: center;
-  padding: 2%;
+  padding: 2.8%;
 }
 
 @media (max-width: 931px) {
@@ -167,7 +166,6 @@ footer {
     padding: 0 5%;
   }
 
- 
   .container_result {
     width: 40%;
     padding-bottom: 3%;
